@@ -5,6 +5,7 @@ Collaborative songwriting platform that allows users to create new songs, propos
 - Clone repo
 - Run `npm i` to install dependencies
 - Run `npm run dev` to start server
+- Navigate to `localhost:4000` to view application and `localhost:4000/graphql` to interact with the GraphiQL interface
 
 ### Tech stack
 - Node.js / Express
