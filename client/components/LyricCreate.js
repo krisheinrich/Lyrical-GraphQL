@@ -17,7 +17,7 @@ class LyricCreate extends Component {
       }
     });
 
-    this.setState({ content: ' ' })
+    this.setState({ content: '' })
   }
 
   render() {
