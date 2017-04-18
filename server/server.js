@@ -9,7 +9,7 @@ const mongo = require('./credentials');
 const app = express();
 
 // Connect to mongoLab
-const MONGO_URI = `mongodb://${mongo.name}:${mongo.password}@ds163020.mlab.com:63020/lyricaldb`;
+const MONGO_URI = `mongodb://${mongo.name}:${mongo.password}@${mongo.sub}.mlab.com:${mongo.port}/lyricaldb`;
 if (!MONGO_URI) {
   throw new Error('You must provide a MongoLab URI');
 }
